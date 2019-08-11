@@ -171,20 +171,6 @@ curl --location --request POST "https://libraservice2.kulap.io/mint" \
 }
 ```
 
-Postman
--------
-[https://documenter.getpostman.com/view/1671913/S1a32SZ5?version=latest](https://documenter.getpostman.com/view/1671913/S1a32SZ5?version=latest)
-
-Contributors
-------------
-
-- Tot (Kulap.io, https://github.com/totiz)
-- Big (Kulap.io, https://github.com/biigpongsatorn)
-- Kor (https://github.com/korrio)
-- Bank (https://github.com/zent-bank)
-- Suraneti (https://github.com/suraneti)
-- Katopz (FoxFox.io, https://github.com/katopz)
-
 License
 -------
 
