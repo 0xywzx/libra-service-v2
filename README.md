@@ -1,19 +1,15 @@
-
-Required
---------
-
-- node 10.15.3
-- docker
-
 Install
 -------
 
 ```shell
+$ nvm install 12
+$ nvm use 12
+
 # Download source
-git clone https://github.com/kulapio/libra-service.git
+git clone git@github.com:Yosuke-Aramaki/libra-service-v2.git
 
 # Getting in
-cd libra-service
+cd libra-service-v2
 
 # Install dependencies
 npm i
