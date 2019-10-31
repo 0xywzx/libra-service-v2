@@ -43,7 +43,6 @@ app.post('/createWallet', async (req, res) => {
     const wallet = {
       address: createdResult.address,
       mnemonic: createdResult.mnemonic,
-      balance: AMOUNT_TO_MINT.toString(10)
     }
 
     // // Mint
