@@ -45,9 +45,9 @@ app.post('/createWallet', async (req, res) => {
       mnemonic: createdResult.mnemonic,
     }
 
-    // // Mint
+    // Mint
     // await client.mintWithFaucetService(createdResult.address, 10e8)
-    // //await libra.mint(createdResult.address, 1000e6) 
+    // await libra.mint(createdResult.address, 1000e6) 
 
     console.log('wallet', wallet)
     res.send(wallet)
