@@ -36,8 +36,8 @@ app.post('/createWallet', async (req, res) => {
     const createdResult = await libra.createWallet(AMOUNT_TO_MINT)
 
     // Mint
-    const faucent = await new Faucent()
-    await faucent.getFaucetFromLibraTestnet(AMOUNT_TO_MINT, createdResult.address)
+    // const faucent = await new Faucent()
+    // await faucent.getFaucetFromLibraTestnet(AMOUNT_TO_MINT, createdResult.address)
     
 
     const wallet = {
